@@ -1,7 +1,7 @@
 /*
  * @Description:脚手架配置文件
  * @Date: 2021-04-15 11:38:49
- * @LastEditTime: 2021-04-26 21:30:03
+ * @LastEditTime: 2021-10-07 21:10:11
  * @FilePath: \warbler-homepage\vite.config.ts
  */
 import { defineConfig } from 'vite';
@@ -21,4 +21,5 @@ export default defineConfig({
     hooks: path.resolve(__dirname, 'src/hooks'),
   },
   plugins: [vue()],
+  base: '/cj_nav/'
 });
